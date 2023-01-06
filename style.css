@@ -1,0 +1,39 @@
+.nav {
+  /* First way to center the element of nav  */
+  /* text-align: center; */
+
+  /* SECOND way to center the element of nav  */
+
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+  /* THIRD way to center the element of nav  */
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 2rem auto;
+}
+.nav a {
+  /* We use inline-block to allow us to margin top bottom right and padding and border  */
+
+  display: inline-block;
+  text-decoration: none;
+  background-color: gray;
+  color: white;
+  padding: 0.4rem 1rem;
+  margin: 0.3rem 0.1rem;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  font-size: 1.4rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.nav a:hover {
+  background-color: white !important;
+  color: gray;
+  border: 1px solid gray;
+}
